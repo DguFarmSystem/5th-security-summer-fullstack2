@@ -7,6 +7,15 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+#sojin .profile-img {
+  width: 150px;          
+  height: 150px;        
+  object-fit: cover;     
+  border-radius: 50%;     
+  margin-bottom: 16px;   
+  display: block;        
+}
+
 #sojin h2 {
   font-size: 1.5rem;
   color: #1e293b;
@@ -34,4 +43,16 @@
   border-radius: 16px;
   font-size: 0.875rem;
   font-weight: 500;
+}
+
+#sojin .mbti-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  color: #1d4ed8;
+  font-size: 0.875rem;
 }
