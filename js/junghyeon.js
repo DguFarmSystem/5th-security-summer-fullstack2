@@ -1,0 +1,1 @@
+const junghyeon = document.querySelector("#junghyeon");
