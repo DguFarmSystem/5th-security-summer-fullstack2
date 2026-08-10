@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-.profile-card {
+#junmin {
     background-color: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 16px;
@@ -18,15 +18,18 @@ body {
     max-width: 500px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.profile-img {
+#junmin .profile-img {
     width: 150px;
     height: 150px;
     margin: 0 auto 20px auto;
 }
 
-.profile-img img {
+#junmin .avatar {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -34,27 +37,27 @@ body {
     border: 2px solid #e5e7eb;
 }
 
-.profile-info h1 {
+#junmin .name {
     font-size: 28px;
     margin-bottom: 8px;
     color: #1e293b;
 }
 
-.profile-info .role {
+#junmin .role {
     font-size: 16px;
     color: #4f46e5;
     font-weight: 600;
     margin-bottom: 16px;
 }
 
-.profile-info .bio {
+#junmin .bio {
     font-size: 15px;
     color: #444444;
     line-height: 1.6;
     margin-bottom: 24px;
 }
 
-.links {
+#junmin .links {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -63,36 +66,39 @@ body {
     margin-bottom: 30px;
 }
 
-.links a {
+#junmin .links a {
     color: #4f46e5;
     text-decoration: none;
     font-weight: 500;
 }
 
-.links a:hover {
+#junmin .links a:hover {
     text-decoration: underline;
 }
 
-.section {
+#junmin .section {
+    width: 100%;
     margin-top: 24px;
     text-align: left;
     border-top: 1px solid #f1f5f9;
     padding-top: 20px;
 }
 
-.section h2 {
+#junmin .section h2 {
     font-size: 18px;
     color: #1e293b;
     margin-bottom: 12px;
 }
 
-.tags {
+#junmin .tags {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    list-style: none;
+    padding: 0;
 }
 
-.tags span {
+#junmin .tags span {
     background-color: #eef2ff;
     color: #4f46e5;
     padding: 6px 12px;
@@ -101,7 +107,18 @@ body {
     font-weight: 500;
 }
 
-.section p {
+#junmin .mbti {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #4f46e5;
+    background-color: #eef2ff;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+#junmin .section p {
     font-size: 15px;
     color: #444444;
     margin-bottom: 8px;
