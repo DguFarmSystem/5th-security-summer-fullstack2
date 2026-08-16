@@ -1,0 +1,155 @@
+/* 기본 초기화 및 기본 스타일 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff; /* 흰색 배경 */
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* 장건웅 개인 섹션 (#geonung) 전용 스타일 */
+#geonung {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#geonung .container {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* 카드 형태 스타일 */
+#geonung .card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 45px 35px;
+  text-align: center;
+  box-shadow: none;
+}
+
+/* 숨김 상태를 처리하는 클래스 */
+#geonung .hidden {
+  display: none;
+}
+
+/* 원형 프로필 사진 스타일 */
+#geonung .profile-img-box {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 20px auto;
+}
+
+#geonung .profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e5e7eb; 
+}
+
+/* 텍스트 스타일 */
+#geonung .name {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+#geonung .team {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 25px;
+}
+
+/* 정보 목록 스타일 */
+#geonung .info-list {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 30px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#geonung .info-list li {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+#geonung .info-list li:last-child {
+  margin-bottom: 0;
+}
+
+#geonung .info-list a {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+#geonung .info-list a:hover {
+  text-decoration: underline;
+}
+
+/* 버튼 스타일 */
+#geonung .btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+#geonung .btn:hover {
+  background-color: #4338ca;
+}
+
+/* 자기소개 페이지 전용 스타일 */
+#geonung .title {
+  font-size: 26px;
+  margin-bottom: 24px;
+  color: #4f46e5;
+}
+
+#geonung .intro-content {
+  text-align: left;
+  line-height: 1.7;
+  font-size: 15px;
+  color: #444444;
+  margin-bottom: 25px;
+}
+
+#geonung .intro-content p {
+  margin-bottom: 14px;
+}
+
+/* 해시태그 스타일 */
+#geonung .hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#geonung .tag {
+  background-color: #eef2ff;
+  color: #4f46e5;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
