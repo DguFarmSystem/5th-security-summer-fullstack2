@@ -1,12 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>나의 자기소개 페이지</title>
+    <link rel="stylesheet" href="css/leejunmin.css">
+    <link rel="stylesheet" href="css/geonung.css">
+    <link rel="stylesheet" href="css/junghyeon.css" />
 </head>
 <body>
-    <link rel="stylesheet" href="css/junghyeon.css" />
+    <div id="junmin">
+        <div class="profile-img">
+            <img src="images/leejunmin.jpg" alt="프로필 이미지" class="avatar">
+        </div>
+        
+        <div class="profile-info">
+            <h1 class="name">이준민</h1>
+            <p class="role">Server Administrator & DBA 지망생</p>
+            <p class="bio">안녕하세요! 정보통신공학과 백엔드 및 인프라 공부를 하고 있는 22학번 이준민 입니다.</p>
+            
+            <ul class="links">
+                <li><a href="https://github.com/Lee-junmin030102" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.instagram.com/zo.om_in2/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            </ul>
+        </div>
+
+        <div id="skills-section" class="section">
+            <h2>관심 기술 스택</h2>
+            <ul class="tags">
+                <li><span>Java</span></li>
+                <li><span>Spring</span></li>
+                <li><span>MySQL</span></li>
+                <li><span>Linux</span></li>
+            </ul>
+        </div>
+
+        <div id="mbti-section" class="section">
+            <h2>MBTI 및 성향</h2>
+            <p class="mbti">ISFP</p>
+            <p>침대에 누워있는 것을 좋아하고 맛있는 음식 먹는 것을 좋아합니다.</p>
+        </div>
+    </div>
+
+    <script src="js/leejunmin.js"></script>
+    <link rel="stylesheet" href="css/sojin.css" />
+
+    <main>
+    <section id="sojin" class="profile">
+        <img src="images/sojin.jpg" alt="소진 프로필 사진" class="profile-img" />
+      <h2>소진</h2>
+      <p class="role">Security / Fullstack</p>
+      <ul class="tags">
+        <li>HTML</li>
+        <li>JavaScript</li>
+      </ul>
+      <div class="mbti-box">
+    <span>MBTI</span>
+    <strong>INFJ</strong> 
+  </div>
+
+    </section>
+  </main>
+
+  <script src="js/sojin.js"></script>
+  
+<!-- 장건웅 자기소개 섹션 (#geonung) -->
+  <section id="geonung">
+    <div class="container">
+
+      <!-- 1. 프로필 페이지 영역 -->
+      <section id="profile-page" class="card">
+        <div class="profile-img-box">
+          <img src="images/geonung.jpg" alt="프로필 사진" class="profile-img">
+        </div>
+
+        <h1 class="name">장건웅</h1>
+        <p class="team">Fullstack2 팀</p>
+
+        <ul class="info-list">
+          <li><strong>인스타그램:</strong> <a href="https://www.instagram.com/wkd__ung/" target="_blank">@wkd_ung</a></li>
+          <li><strong>MBTI:</strong> ENTP</li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/rjsdnd9108" target="_blank">https://github.com/rjsdnd9108</a></li>
+        </ul>
+
+        <button id="go-to-intro-btn" class="btn">자기소개 보기</button>
+      </section>
+
+      <!-- 2. 자기소개 페이지 영역 -->
+      <section id="intro-page" class="card hidden">
+        <h1 class="title">장건웅의 자기소개</h1>
+
+        <div class="intro-content">
+          <p>안녕하세요! Fullstack2 팀에서 개발 공부하고 있는 장건웅입니다. 백엔드 공부하고 있고, 클라우드 분야에 관심이 있습니다.</p>
+          <p>학교 수업을 통해 C++, Java, Python 등을 접해보았고, 최근 프로젝트에서는 Kotlin을 활용해보았습니다. 현재는 Spring Boot를 공부하고 있는 중입니다.</p>
+          <p>취미는 헬스 즐겨 하고 있습니다. 운동하는 중에는 힘들지만 잡생각도 사라지고, 끝나면 기분도 좋아집니다. 그리고 영화보는 것도 좋아합니다.</p>
+          <p>개인적인 장기로는 사과게임 초절정고수입니다. 도전은 언제나 환영입니다.</p>
+        </div>
+
+        <div class="hashtags">
+          <span class="tag">#C++</span>
+          <span class="tag">#Java</span>
+          <span class="tag">#Python</span>
+          <span class="tag">#Kotlin</span>
+          <span class="tag">#SpringBoot</span>
+          <span class="tag">#보안/웹</span>
+          <span class="tag">#백엔드</span>
+          <span class="tag">#Fullstack</span>
+        </div>
+
+        <button id="go-to-profile-btn" class="btn">프로필로 돌아가기</button>
+      </section>
+
+    </div>
+  </section>
+
+  <script src="js/geonung.js"></script>
+
+<!-- 장정현 자기소개 섹션 (#junghyeon) -->
     <main>
         <section id="junghyeon" class="profile">
             <img class="avatar" src="images/junghyeon.jpg" alt="정현 프로필 사진" />

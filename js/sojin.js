@@ -1,0 +1,1 @@
+const sojin = document.querySelector("#sojin");
